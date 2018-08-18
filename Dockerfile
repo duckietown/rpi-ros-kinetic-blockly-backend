@@ -20,4 +20,4 @@ RUN chmod +x /root/entrypoint_backend.sh
 RUN [ "cross-build-end" ]
 
 # configure entrypoint
-ENTRYPOINT ["/ros_entrypoint.sh", "/entrypoint_backend.sh"]
+ENTRYPOINT ["/ros_entrypoint.sh", "/root/entrypoint_backend.sh"]
