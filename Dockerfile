@@ -1,5 +1,5 @@
 # Base image
-FROM duckietown/rpi-ros-kinetic-base:latest
+FROM duckietown/rpi-ros-kinetic-base:master18
 
 # configure STANDALONE mode
 ENV STANDALONE 0
